@@ -120,11 +120,9 @@ const setPrice =(w, p) => {
 }
 
 const displayResults = ()=> {
-    // const itemDisplay = document.getElementById('itemDisplay')
     const weightDisplay = document.getElementById('weightDisplay')
     const priceDisplay = document.getElementById('PriceDisplay')
 
-    // itemDisplay.innerText = results.item
     weightDisplay.innerText = results.weight
     priceDisplay.innerText = results.price.toFixed(2)
 }
