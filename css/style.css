@@ -1,0 +1,21 @@
+*{box-sizing: border-box; }
+
+#itemSection {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 600px;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    box-shadow: 0 0 0 1px #333;
+    cursor: pointer;
+    text-align: center;
+}
+
+.item:hover {
+    background-color: #ddd;
+    color: #333
+}
